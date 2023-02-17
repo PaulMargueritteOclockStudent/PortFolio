@@ -50,3 +50,15 @@
 .lien-conteneur-photo:hover .photo-hover {
     display: flex;
 }
+
+@media screen and (max-width:996px) {
+    .grid-batiment {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .grid-electrocompagnie {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+}
